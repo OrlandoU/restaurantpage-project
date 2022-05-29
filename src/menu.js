@@ -4,65 +4,66 @@ const menuOptions = [
     {
         name: 'Beef Burger',
         ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
+        price: '$7.95',
         img: './placeholder-removebg-preview.png'
     },
     {
         name: 'Cheese Burger',
         ingredients: 'Beef Patty, Cheddar Cheese, Grilled onions & Tomatoes, Pickles, Lettuce, Ketchup, Mayo and Mustard',
-        price: '$2.95',
+        price: '$8.49',
         img: './cheeseburger.png'
     },
     {
         name: 'Beef Bacon',
         ingredients: 'Beef Patty, Cheddar Cheese, Beef Bacon, Grilled Onions & Tomatoes Pickles, Lettuce, Ketchup, Mayo and Mustard',
-        price: '$2.95',
+        price: '$9.99',
         img: './beefbacon.png'
     },
     {
         name: 'Creamy Mushroom',
         ingredients: 'Beef Patty, Cream of Mushroom, Mozzarella Cheese, Grilled Onions, Mayo',
-        price: '$2.95',
+        price: '$9.45',
         img: './creamymushroom.png'
     },
     {
         name: 'Hawaiian Burger',
         ingredients: 'Beef Patty, Grilled Pineapple,Mozzarella Cheese, Onions, Tomatoes, Lettuce, Mayo, BBQ sauce',
-        price: '$2.95',
+        price: '$10.00',
         img: './hawaiian.png'
     },
     {
         section: true,
         name: 'Spicy Tandoori',
-        ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
-        img: './placeholder-removebg-preview.png'
+        ingredients: 'Tandoori Chicken, Cheddar Cheese, Grilled Onion & Tomatoes Lettuce, Pickles, Garlic Sauce, Mayo',
+        price: '$9.95',
+        img: './spicytandori.png'
     },
     {
-        name: 'Beef Burger',
-        ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
-        img: './placeholder-removebg-preview.png'
+        name: 'Spicy Buffalo',
+        ingredients: 'Crispy Chicken, Mozzarella Cheese, Grilled Onion & Tomatoes Lettuce, Garlic Sauce, Buffalo Sauce Mayo',
+        price: '$10.49',
+        img: './spicybuffalo.png'
     },
     {
-        name: 'Beef Burger',
-        ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
-        img: './placeholder-removebg-preview.png'
+        name: 'BBQ Chicken',
+        ingredients: 'Grilled Chicken, Mozzarella Cheese, Grilled Onion, Lettuce, Mayo BBQ Sauce',
+        price: '$9.95',
+        img: './bbqchickenburger.png'
     },
     {
-        name: 'Beef Burger',
-        ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
-        img: './placeholder-removebg-preview.png'
+        name: 'Crispy Chicken',
+        ingredients: 'Crispy Chicken, Cheddar Cheese, Grilled Onion & Tomatoes Lettuce, Pickles, Garlic Sauce, Mayo, Chipotle Sauce',
+        price: '$10.95',
+        img: './crispychiken.png'
     },
     {
-        name: 'Beef Burger',
-        ingredients: 'Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo,mustard',
-        price: '$2.95',
-        img: './placeholder-removebg-preview.png'
+        name: 'Chicken Paradise',
+        ingredients: 'Grilled Chicken, Mozzarella Cheese, Grilled Pineapple, Lettuce, Onions Jalapenos, Mayo, Garlic Sauce',
+        price: '$8.95',
+        img: './paradise.png'
     }
 ]
+
 export default function menu() {
     let main = document.createElement('main')
     main.classList.add('menu-container')

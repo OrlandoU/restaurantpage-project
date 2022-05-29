@@ -2,6 +2,7 @@ import pageLoad from './page-load'
 import clearElement from './clear';
 import header from './header';
 import menu from './menu';
+import aboutUsF from './aboutus'
 
 header()
 
@@ -32,10 +33,23 @@ const pageManager = (()=>{
         setTimeout(()=>{
             menu()
             document.querySelector('main').classList.add('transition-menu')
+            setTimeout(()=>{
+                document.querySelector('main').classList.remove('transition-menu')
+            },600)
         },500)
+        
     }
     const _setAboutUsPage = ()=>{
-        console.log('About Us')
+        document.querySelector('main').classList.add('transition')
+        setTimeout(()=>clearElement('main'), 500)
+        rootEl.classList.remove('home')
+        setTimeout(()=>{
+            aboutUsF()
+            document.querySelector('main').classList.add('transition-menu')
+            setTimeout(()=>{
+                document.querySelector('main').classList.remove('transition-menu')
+            },600)
+        },500)
     }
     return {setup}
 })()
